@@ -1,0 +1,79 @@
+/* Requirement 1: background color */
+body {
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Requirement 2: font */
+}
+
+/* Requirement 3: styled heading */
+#title {
+    color: #2c3e50;
+    font-size: 32px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 0;
+    border-bottom: 3px solid #3498db;
+}
+
+h2 {
+    color: #34495e;
+    text-align: center;
+}
+
+/* Requirement 4: round picture */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    border: 4px solid #3498db;
+}
+
+/* Requirement 5: bordered form */
+.card, .form-container {
+    border: 2px solid #3498db;
+    padding: 20px;
+    width: 350px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+input, select {
+    width: 95%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button, .btn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+button:hover, .btn:hover {
+    background-color: #2980b9;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+}
